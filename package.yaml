@@ -19,5 +19,7 @@ description: |
 homepage: "https://example.com"
 license: "MIT"
 contents:
-- src: ./plugin.*
+- src: ./*.py
+  dst: /usr/lib/avnav/plugins/more-nmea
+- src: ./*COF
   dst: /usr/lib/avnav/plugins/more-nmea
