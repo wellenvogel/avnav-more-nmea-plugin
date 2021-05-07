@@ -1,6 +1,10 @@
 AvNav More NMEA plugin
 ======================
 
+*** diese plugin ist nicht aktuell ***
+Aktuelle Version im [repo des Autors](https://github.com/kdschmidt1/avnav-more-nmea-plugin).
+
+
 Ein plugin für [AvNav](https://www.wellenvogel.net/software/avnav/docs/beschreibung.html), das zusätzliche NMEA Daten dekodiert und berechnet.
 
 Autor: [kdschmidt1](https://github.com/kdschmidt1)
