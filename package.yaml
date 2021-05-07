@@ -1,0 +1,23 @@
+# nfpm example config file
+#
+# check https://nfpm.goreleaser.com/configuration for detailed usage
+#
+name: "avnav-more-nmea-plugin"
+arch: "all"
+platform: "linux"
+version: "v1.0.0"
+keep_version: true
+section: "default"
+priority: "extra"
+depends:
+- avnav
+- python3-smbus
+- python3-rpi.gpio
+maintainer: "Andreas Vogel <andreas@wellenvogel.de>, kdschmidt1"
+description: |
+  AvNav plugin for more NMEA data
+homepage: "https://example.com"
+license: "MIT"
+contents:
+- src: ./plugin.*
+  dst: /usr/lib/avnav/plugins/more-nmea
